@@ -1,0 +1,70 @@
+{
+    "mappings": [
+      {
+        "request": {
+          "method": "POST",
+          "url": "/gwebsvc/rest/v2/psbs/clients",
+          "bodyPatterns": [
+            {
+              "ignoreExtraElements": true,
+              "equalToJson": {
+                "ClientName": "Mrunalini Nilesh Kankariya",
+                "NA-FIRSTNAME": "Mrunalini",
+                "NA-SURNAME": "Kankariya",
+                "NA-INITIALS": "Nilesh",
+                "NA-Appelation": "Mrs",
+                "Gender": "Female",
+                "BirthDate": "1979-10-01",
+                "COUNTRY-OF-RES": "AUS",
+                "currcy": "AUD",
+                "KYCStatus": "Complete",
+                "NA-PHON": "0411223344",
+                "MobilePhone": "0411223344",
+                "NA-ADR1": "54 Hyde Street",
+                "NA-ADR2": "",
+                "NA-ADR3": "",
+                "NA-SUBURB": "ADELAIDE",
+                "NA-ST": "South Australia",
+                "NA-PC": "5000",
+                "NA-EMAIL": "Mrunalini.Kankariya@evoltech.co.au",
+                "Country": "AUS",
+                "NA-ORGANIZATION": "",
+                "Entity-Type": "Individual",
+                "ABN": ""
+              }
+            }
+          ]
+        },
+        "response": {
+          "status": 200,
+          "jsonBody": {
+            "_retVal": "",
+            "id": "3032303030303534333500",
+            "data": {
+              "client": "0200005435",
+              "ClientName": "Mrunalini Nilesh Kankariya",
+              "Inactive": false,
+              "NA-APPELATION": "Mrs",
+              "Gender": "F",
+              "NA-FIRSTNAME": "Mrunalini",
+              "NA-INITIALS": "Nilesh",
+              "NA-SURNAME": "Kankariya",
+              "BirthDate": "1979-10-01",
+              "COUNTRY-OF-RES": "AUS",
+              "PersonalMobile": "",
+              "PersonalEmail": "",
+              "NA-ADR1": "54 Hyde Street",
+              "NA-ADR2": "",
+              "NA-ADR3": "",
+              "NA-ADR4": "",
+              "NA-SUBURB": "ADELAIDE",
+              "NA-ST": "South Australia",
+              "NA-PC": "5000",
+              "Country": "AUS",
+              "pref06": false
+            }
+          }
+        }
+      }
+    ]
+  }

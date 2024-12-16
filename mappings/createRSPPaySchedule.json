@@ -1,0 +1,45 @@
+{
+    "mappings": [
+      {
+        "request": {
+          "method": "POST",
+          "url": "/gwebsvc/rest/v2/psbs/rspPaySchedules",
+          "bodyPatterns": [
+            {
+              "ignoreExtraElements": true,
+              "equalToJson": {
+                "PlanID": 0,
+                "Type": "URSPLAN",
+                "SubEntityType": "FUND",
+                "PlanDesc": "Regular Saving Plan",
+                "effectivefrom": "2024-12-09",
+                "effectiveto": "2029-12-09",
+                "frequency": "Monthly",
+                "CashAccount": "30156298",
+                 "NextPayDate": "2025-01-01",
+                 "ExpenseCode": "CASH",
+                "amount": 500,
+                 "RSPPayDetails": [
+                  {
+                    "PayeeType": "CLNT",
+                    "PayeeCode": "0200005435",
+                    "PayMethod": "DirectDB",
+                    "PaymentAmt": 500,
+                    "BankCode": "ROK",
+                    "BSB": "807-009",
+                    "AccountNo": "30156298",
+                    "AccountName": "Mrunalini Kankariya"   
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "response": {
+          "status": 200,
+          "jsonBody": {
+          }
+        }
+      }
+    ]
+  }

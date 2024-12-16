@@ -1,0 +1,37 @@
+{
+    "mappings": [
+      {
+        "request": {
+          "method": "POST",
+          "url": "/gwebsvc/rest/v1/psbs/owners?fields=pfolio,client,OwnerType,PrimaryClient,AssignDate,curr-pct,incep-pct",
+          "bodyPatterns": [
+            {
+              "ignoreExtraElements": true,
+              "equalToJson": {
+                "pfolio": "F2003160",
+                "client": "0200005435",
+                "OwnerType": "Client",
+                "PrimaryClient": true,
+                "curr-pct": 50
+              }
+            }
+          ]
+        },
+        "response": {
+          "status": 200,
+          "jsonBody": {
+            "_retVal": "",
+            "id": "38653665363435322d613165352d326461362d616631342d66646237353430343262666500",
+            "data": {
+                "pfolio": "L2000314",
+                "client": "0200001333",
+                "OwnerType": "BEN-DWNLINE",
+                "PrimaryClient": true,
+                "curr-pct": 100.0,
+                "incep-pct": 100.0
+            }
+          }
+        }
+      }
+    ]
+  }

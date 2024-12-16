@@ -1,0 +1,68 @@
+{
+    "mappings": [
+      {
+        "request": {
+          "method": "POST",
+          "url": "/gwebsvc/rest/v2/psbs/portfolios",
+          "bodyPatterns": [
+            {
+              "ignoreExtraElements": true,
+              "equalToJson": {
+                "description": "Test Funeral Bond",
+                "Product": "KIF",
+                "Category": "Taxed",
+                "PortfolioType": "Unitholder",
+                "OmniClass":"Standard",
+                "ProdType": "FNBOND",
+                "cost-basis": "ACT",
+                "SubCategory":"F-ASSIGNED",
+                "InvestorClass": "DEFAULT",
+                "currcy": "AUD",
+                "RptTaxCostBase": "ACT",
+                "PfolioClass": "Physical Portfolio",
+                "Adviser": "A-000189",
+                "Broker": "D-KEYINV",
+                "OpenDate": "2024-12-09",
+                "inception": "2024-12-09",
+                "AssignPolicy":true,
+                "AssignmentDate":"2024-12-09",
+                "POAStatus":"Active",
+                "POAStatusAsAt":"2024-12-09",
+                "POAType":"Enduring (Medical treatment)",
+                "ApptAttorneyType":"Sole",
+                "ApptAttorney":"0200005435",
+                "AccountStatus": "Active",
+                "PolicyTerm": 0,
+                "PolicyMaturity": "",
+                "date06": ""
+              }
+            }
+          ]
+        },
+        "response": {
+          "status": 200,
+          "jsonBody": {
+            "_retVal": "",
+            "id": "463230303331363000",
+            "data": {
+                "Adviser": "A-000189",
+                "Broker": "D-KEYINV",
+                "description": "Test Funeral Bond",
+                "inception": "2024-12-09",
+                "OPenDate": "2024-12-09",
+                "pfolio": "F2003160",
+                "Product": "KIF",
+                "bpayCRN": "0620031609",
+                "date06": null,
+                "PolicyTerm": 0,
+                "Category": "Taxed",
+                "PolicyMaturity": null,
+                "SubCategory": "F-ASSIGNED",
+                "lkp02": "",
+                "lkp01": ""
+            }
+          }
+        }
+      }
+    ]
+  }

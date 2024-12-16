@@ -1,0 +1,296 @@
+
+{
+    "mappings": [
+      {
+        "request": {
+          "method": "GET",
+          "url": "/gwebsvc/rest/v2/web/client/100034978?portfolios=yes"
+        },
+        "response": {
+          "status": 200,
+          "jsonBody": {
+            "Client": {
+                "Client": "100034978",
+                "Type": "INDIVIDUAL",
+                "Name": "Andrew Martin Meinel",
+                "DateOfBirth": "1966-10-03",
+                "Inactive": false,
+                "ResidentialAddress": {
+                    "AddressLine1": "64 Aver Avenue",
+                    "AddressLine2": "",
+                    "AddressLine3": "",
+                    "AddressLine4": "",
+                    "Suburb": "DAW PARK",
+                    "State": "SA",
+                    "PostCode": "5041",
+                    "Country": "Australia"
+                },
+                "MailingAddress": {
+                    "AddressLine1": "64 Aver Avenue",
+                    "AddressLine2": "",
+                    "AddressLine3": "",
+                    "AddressLine4": "",
+                    "Suburb": "DAW PARK",
+                    "State": "SA",
+                    "PostCode": "5041",
+                    "Country": "Australia"
+                },
+                "RegisteredAddress": {
+                    "AddressLine1": "",
+                    "AddressLine2": "",
+                    "AddressLine3": "",
+                    "AddressLine4": "",
+                    "Suburb": "",
+                    "State": "",
+                    "PostCode": "",
+                    "Country": ""
+                },
+                "ABN": "",
+                "Comms": {
+                    "HomePhone": "",
+                    "BusinessPhone": "08 8213 1125",
+                    "MobilePhone": "0458 526 749",
+                    "Email": "andrew.meinel@keyinvest.com.au",
+                    "BusinessName": ""
+                },
+                "ClientLinks": [],
+                "Portfolios": [
+                    {
+                        "PolicyType": "",
+                        "Product": "LEB",
+                        "RelatedClients": [
+                            {
+                                "Client": "100034978",
+                                "ClientName": "Andrew Martin Meinel",
+                                "Role": "CLIENT"
+                            },
+                            {
+                                "Client": "100034979",
+                                "ClientName": "Nicole Ann Meinel",
+                                "Role": "CLIENT"
+                            },
+                            {
+                                "Client": "100034978",
+                                "ClientName": "Andrew Martin Meinel",
+                                "Role": "LIFEINS"
+                            },
+                            {
+                                "Client": "100034979",
+                                "ClientName": "Nicole Ann Meinel",
+                                "Role": "LIFEINS"
+                            }
+                        ],
+                        "Portfolio": "L1000003",
+                        "InceptionDate": "2008-12-01",
+                        "DateOpened": "2008-12-01",
+                        "AIPYear": 15,
+                        "MaxAllowContribution": 2437.5,
+                        "ExpSavPlanContribution": 2000.0,
+                        "InvestmentAllocation": {
+                            "EffectiveDate": "2021-10-09",
+                            "Allocation": [
+                                {
+                                    "AssetCode": "LEB2",
+                                    "AssetName": "Vanguard Balanced Index",
+                                    "Percent": 1.0
+                                }
+                            ]
+                        },
+                        "Custom": {
+                            "Custom01": "",
+                            "Custom02": "0",
+                            "Custom03": "",
+                            "Custom04": "",
+                            "Custom05": "",
+                            "Custom07": "",
+                            "Custom08": "",
+                            "Preference01": false,
+                            "Preference02": false,
+                            "Preference03": false,
+                            "Preference04": false,
+                            "Preference05": false,
+                            "Preference06": false,
+                            "Preference07": false,
+                            "Preference10": false,
+                            "Lookup01": "Child's Education",
+                            "Lookup02": "",
+                            "Lookup03": "",
+                            "Lookup04": "Email",
+                            "Lookup10": "",
+                            "Date01": null,
+                            "Date02": null,
+                            "Date03": null,
+                            "Date04": null,
+                            "Date05": null,
+                            "Date06": null,
+                            "Date07": null,
+                            "Date08": null,
+                            "Date09": null,
+                            "Date10": null
+                        },
+                        "PrimaryAdviser": "A-000189",
+                        "PrimaryAgent": "D-KEYINV",
+                        "Comms": {
+                            "HomePhone": "",
+                            "BusinessPhone": "08 8213 1100",
+                            "MobilePhone": "",
+                            "Email": "info@keyinvest.com.au",
+                            "BusinessName": "KeyInvest Ltd"
+                        },
+                        "Alternate1": 0,
+                        "Plans": [
+                            {
+                                "Type": "URSPLAN",
+                                "Description": "Regular Monthly Contribution Plan",
+                                "EffectiveFrom": "2008-12-15",
+                                "EffectiveTo": null,
+                                "Frequency": "Monthly",
+                                "Amount": 500.0,
+                                "IndexationRate": 0.0,
+                                "AccountName": "AM and NA Meinel",
+                                "AccountNo": "018755840",
+                                "BankCode": "BSA",
+                                "BankBSB": "105-159",
+                                "LodgementRef": ""
+                            },
+                            {
+                                "Type": "URPPLAN",
+                                "Description": "Regular Payment plan",
+                                "EffectiveFrom": "2021-12-27",
+                                "EffectiveTo": null,
+                                "Frequency": "Quarterly",
+                                "Amount": 2000.0,
+                                "IndexationRate": 0.0,
+                                "AccountName": "AM and NA Meinel",
+                                "AccountNo": "018755840",
+                                "BankCode": "BSA",
+                                "BankBSB": "105-159",
+                                "LodgementRef": "KeyInvest"
+                            }
+                        ],
+                        "MarketValue": 3179.36
+                    },
+                    {
+                        "PolicyType": "",
+                        "Product": "LEB",
+                        "RelatedClients": [
+                            {
+                                "Client": "100034978",
+                                "ClientName": "Andrew Martin Meinel",
+                                "Role": "CLIENT"
+                            },
+                            {
+                                "Client": "100034979",
+                                "ClientName": "Nicole Ann Meinel",
+                                "Role": "CLIENT"
+                            },
+                            {
+                                "Client": "100034978",
+                                "ClientName": "Andrew Martin Meinel",
+                                "Role": "LIFEINS"
+                            },
+                            {
+                                "Client": "100034979",
+                                "ClientName": "Nicole Ann Meinel",
+                                "Role": "LIFEINS"
+                            }
+                        ],
+                        "Portfolio": "L1000003",
+                        "InceptionDate": "2008-12-01",
+                        "DateOpened": "2008-12-01",
+                        "AIPYear": 15,
+                        "MaxAllowContribution": 2437.5,
+                        "ExpSavPlanContribution": 2000.0,
+                        "InvestmentAllocation": {
+                            "EffectiveDate": "2021-10-09",
+                            "Allocation": [
+                                {
+                                    "AssetCode": "LEB2",
+                                    "AssetName": "Vanguard Balanced Index",
+                                    "Percent": 1.0
+                                }
+                            ]
+                        },
+                        "Custom": {
+                            "Custom01": "",
+                            "Custom02": "0",
+                            "Custom03": "",
+                            "Custom04": "",
+                            "Custom05": "",
+                            "Custom07": "",
+                            "Custom08": "",
+                            "Preference01": false,
+                            "Preference02": false,
+                            "Preference03": false,
+                            "Preference04": false,
+                            "Preference05": false,
+                            "Preference06": false,
+                            "Preference07": false,
+                            "Preference10": false,
+                            "Lookup01": "Child's Education",
+                            "Lookup02": "",
+                            "Lookup03": "",
+                            "Lookup04": "Email",
+                            "Lookup10": "",
+                            "Date01": null,
+                            "Date02": null,
+                            "Date03": null,
+                            "Date04": null,
+                            "Date05": null,
+                            "Date06": null,
+                            "Date07": null,
+                            "Date08": null,
+                            "Date09": null,
+                            "Date10": null
+                        },
+                        "PrimaryAdviser": "A-000189",
+                        "PrimaryAgent": "D-KEYINV",
+                        "Comms": {
+                            "HomePhone": "",
+                            "BusinessPhone": "08 8213 1100",
+                            "MobilePhone": "",
+                            "Email": "info@keyinvest.com.au",
+                            "BusinessName": "KeyInvest Ltd"
+                        },
+                        "Alternate1": 0,
+                        "Plans": [
+                            {
+                                "Type": "URSPLAN",
+                                "Description": "Regular Monthly Contribution Plan",
+                                "EffectiveFrom": "2008-12-15",
+                                "EffectiveTo": null,
+                                "Frequency": "Monthly",
+                                "Amount": 500.0,
+                                "IndexationRate": 0.0,
+                                "AccountName": "AM and NA Meinel",
+                                "AccountNo": "018755840",
+                                "BankCode": "BSA",
+                                "BankBSB": "105-159",
+                                "LodgementRef": ""
+                            },
+                            {
+                                "Type": "URPPLAN",
+                                "Description": "Regular Payment plan",
+                                "EffectiveFrom": "2021-12-27",
+                                "EffectiveTo": null,
+                                "Frequency": "Quarterly",
+                                "Amount": 2000.0,
+                                "IndexationRate": 0.0,
+                                "AccountName": "AM and NA Meinel",
+                                "AccountNo": "018755840",
+                                "BankCode": "BSA",
+                                "BankBSB": "105-159",
+                                "LodgementRef": "KeyInvest"
+                            }
+                        ],
+                        "MarketValue": 3179.36
+                    }
+                ]
+            },
+            "_retVal": ""            
+          }
+        }
+      }
+    ]
+  }
+

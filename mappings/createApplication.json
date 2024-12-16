@@ -1,0 +1,65 @@
+{
+    "mappings": [
+      {
+        "request": {
+          "method": "POST",
+          "url": "/gwebsvc/rest/v2/psbs/regAppBatch",
+          "bodyPatterns": [
+            {
+              "ignoreExtraElements": true,
+              "equalToJson": {
+                "Type": "",
+                "UnitHolder": "F2003160",
+                "Agent": "D-KEYINV",
+                "Advisor": "A-000189",
+                "EffectiveDate": "2024-12-09",
+                "UnitPriceDate": "2022-12-09",
+                "AllocInstruction": "Fixed",
+                "ApplicationAmt": 5000.0000,
+                "PayMethod": "DIRECTDB",
+                "PayeeType": "CLNT",
+                "PayeeCode": "",
+                "BSB": "807-009",
+                "BankCode": "ROK",
+                "AccountNo": "30156298",
+                "AccountName": "Mrunal Kankariya",
+                "DocumentRef": "",
+                "ChequeNo": "",
+                "Comment": "Portal initial contribution",
+                "FundAllocations": [
+                  {
+                    "Fund": "FBTC",
+                    "AllocValue": 1000,
+                    "AlloPct": 20
+                  },
+                  {
+                    "Fund": "UFB1",
+                    "AllocValue": 1000,
+                    "AlloPct": 20
+                  },
+                  {
+                    "Fund": "UFB2",
+                    "AllocValue": 1000,
+                    "AlloPct": 20
+                  },
+                  {
+                    "Fund": "UFB3",
+                    "AllocValue": 2000,
+                    "AlloPct": 40
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "response": {
+          "status": 200,
+          "jsonBody": {
+            "_retVal": "",
+            "id": "353535323501353535323601353535323701353535323800",
+            "data": null
+          }
+        }
+      }
+    ]
+  }
