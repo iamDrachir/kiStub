@@ -1,0 +1,39 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "/gwebsvc/rest/v2/web/advisor/A-000189"
+      },
+      "response": {
+        "status": 200,
+        "jsonBody": {
+          "Adviser": {
+            "Adviser": "A-000189",
+            "Name": "KeyInvest Ltd",
+            "Custom": {
+              "Custom01": "",
+              "Custom02": "",
+              "Custom03": "",
+              "Lookup01": "",
+              "Lookup02": ""
+            },
+            "Comms": {
+              "HomePhone": "",
+              "BusinessPhone": "08 8213 1100",
+              "MobilePhone": "",
+              "Email": "info@keyinvest.com.au",
+              "BusinessName": "KeyInvest Ltd"
+            },
+            "Agent": "D-KEYINV",
+            "AgentName": "KeyInvest Ltd",
+            "LicenseNo": "240667",
+            "TotalFUA": 42637985.19,
+            "TotalAccounts": 3211
+          },
+          "_retVal": ""
+        }
+      }
+    }
+  ]
+}

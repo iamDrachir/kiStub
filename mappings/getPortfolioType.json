@@ -1,0 +1,133 @@
+
+{
+    "mappings": [
+      {
+        "request": {
+          "method": "GET",
+          "url": "/gwebsvc/rest/v2/web/client/100034978/portfoliodtls?portfolioType=All"
+        },
+        "response": {
+          "status": 200,
+          "jsonBody": {
+            "PortfolioDtls": {
+                "Portfolio": [
+                    {
+                        "pPortfolioCode": "L1000003",
+                        "pPortfolioName": "Andrew Martin Meinel & Nicole Ann Meinel",
+                        "pDateOpened": "2008-12-01",
+                        "cClientName": "Andrew Martin Meinel",
+                        "cClientCode": "100034978",
+                        "cResident": false,
+                        "cTFNSupplied": false,
+                        "pAdviserName": "KeyInvest Ltd",
+                        "pAdviserBusPhone": "08 8213 1100",
+                        "pPfolCategory": "STANDARD",
+                        "pPfolCategoryName": "Standard",
+                        "pAnniversaryDate": "2023-12-01",
+                        "pMaximumOpportunity": 1937.5,
+                        "pOpportunityLimit": true,
+                        "pTotalContributions": 6000.0,
+                        "pBillerCode": "727206",
+                        "pBPayCRN": "1210000038",
+                        "pContactPhone": "",
+                        "pContactBusPhone": "08 8213 1125",
+                        "pContactMobile": "0458 526 749",
+                        "pContactFax": "",
+                        "pContactEmail": "andrew.meinel@keyinvest.com.au",
+                        "pCorrespPortfolioName": "",
+                        "pCorrespAddr1": "64 Aver Avenue",
+                        "pCorrespAddr2": "",
+                        "pCorrespAddr3": "",
+                        "pCorrespAddr4": "",
+                        "pCorrespSuburb": "DAW PARK",
+                        "pCorrespPostcode": "5041",
+                        "pCorrespState": "SA",
+                        "pCorrespCountry": "Australia",
+                        "Plans": [
+                            {
+                                "plPlanTypeDesc": "Regular Payment plan",
+                                "plPlanType": "Payment",
+                                "sAssetCode": "LEB2",
+                                "plEffectiveFrom": "2021-12-27",
+                                "plEffectiveTo": null,
+                                "plFrequency": "Quarterly",
+                                "plAmount": 2000.0,
+                                "plLastPaidDate": null,
+                                "plAccountName": "AM and NA Meinel",
+                                "plBank": "BSA",
+                                "plBSB": "105-159",
+                                "plAccountNo": "018755840",
+                                "plSPIndexPct": 0.0,
+                                "plPayMethod": "EFT",
+                                "plPayMethodDesc": "EFT(Direct Credit)"
+                            },
+                            {
+                                "plPlanTypeDesc": "Regular contributions plan",
+                                "plPlanType": "Saving",
+                                "sAssetCode": "LEB2",
+                                "plEffectiveFrom": "2008-12-15",
+                                "plEffectiveTo": null,
+                                "plFrequency": "Monthly",
+                                "plAmount": 500.0,
+                                "plLastPaidDate": "2023-06-15",
+                                "plAccountName": "AM and NA Meinel",
+                                "plBank": "BSA",
+                                "plBSB": "105-159",
+                                "plAccountNo": "018755840",
+                                "plSPIndexPct": 0.0,
+                                "plPayMethod": "DIRECTDB",
+                                "plPayMethodDesc": "EFT(Direct Debit)"
+                            }
+                        ],
+                        "RelatedParties": [
+                            {
+                                "cClientCode": "100034978",
+                                "cClientName": "Andrew Martin Meinel",
+                                "cRoleType": "CLIENT,LIFEINS",
+                                "cRoleTypeDesc": "Client, Life Insured",
+                                "cAddressLine1": "64 Aver Avenue",
+                                "cAddressLine2": "",
+                                "cAddressLine3": "",
+                                "cAddressLine4": "",
+                                "cSuburb": "DAW PARK",
+                                "cPostcode": "5041",
+                                "cState": "SA",
+                                "cCountry": "Australia",
+                                "cPhone": "08 8213 1125",
+                                "cEmail": "andrew.meinel@keyinvest.com.au",
+                                "cPrimaryOwner": "YES",
+                                "cHomePhone": "",
+                                "cMobilePhone": "0458 526 749",
+                                "cFax": ""
+                            },
+                            {
+                                "cClientCode": "100034979",
+                                "cClientName": "Nicole Ann Meinel",
+                                "cRoleType": "CLIENT,LIFEINS",
+                                "cRoleTypeDesc": "Client, Life Insured",
+                                "cAddressLine1": "64 Aver Avenue",
+                                "cAddressLine2": "",
+                                "cAddressLine3": "",
+                                "cAddressLine4": "",
+                                "cSuburb": "DAW PARK",
+                                "cPostcode": "5041",
+                                "cState": "SA",
+                                "cCountry": "Australia",
+                                "cPhone": "8277 8893",
+                                "cEmail": "nikki_meinel@hotmail.com",
+                                "cPrimaryOwner": "NO",
+                                "cHomePhone": "",
+                                "cMobilePhone": "",
+                                "cFax": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "_retVal": ""            
+          }
+        }
+      }
+    ]
+  }
+
